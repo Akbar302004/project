@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Traffic Management</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body >
+    <h1>🚦 Smart Traffic Management 🚗</h1>
+    <p>
+      Get real-time traffic congestion updates and alternate route suggestions.
+    </p>
+    <input type="text" id="search-box" placeholder="Enter a location..." />
+    <button onclick="searchLocation()">Search</button>
+    <div id="map"></div>
+    <div class="info-box" id="traffic-info">Traffic data loading...</div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
